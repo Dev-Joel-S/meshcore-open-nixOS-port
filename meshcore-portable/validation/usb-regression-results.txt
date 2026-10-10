@@ -1,0 +1,11 @@
+Native USB regression results (Debian 13 x86_64, bundled runtime):
+Official libflserial: early PTY boot data before callback registration -> SIGSEGV.
+Patched libflserial: 30 delayed-callback/open/read/close cycles -> PASS.
+Patched libflserial: early data then close without callback -> PASS.
+Bidirectional native serial PTY I/O -> PASS.
+Native RTLD_NOW library loading -> PASS.
+ONNX 1.22.0 inference [1,4,9,16,25,36] -> PASS.
+Recursive ELF dependency/symbol-version check: 197 ELF objects, zero errors.
+Original Flutter assets: all 26 files hash-identical.
+Isolated Wayland GUI with replacement library -> rendered scanner screen.
+Actual NixOS VM and physical Bluetooth/USB device tests -> NOT EXECUTED.

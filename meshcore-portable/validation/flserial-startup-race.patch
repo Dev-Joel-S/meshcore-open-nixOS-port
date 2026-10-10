@@ -1,0 +1,96 @@
+--- a/src/flserial.cpp
++++ b/src/flserial.cpp
+@@ -3,6 +3,7 @@
+ #include "native_libs/include/tinycthread.h"
+ #include "native_libs/include/ringbuffer.h"
+ #include <iostream>
++#include <atomic>
+ 
+ #define FL_SERIAL_BUFF_LEN (8 * 1024)
+ 
+@@ -14,14 +15,14 @@
+     enum FlError lasterror;
+     char lasterrormsg[512];
+     thrd_t cthread;
+-    int breakThread;
++    std::atomic<int> breakThread;
+     ring_buffer_t  cinfifo;
+     ring_buffer_t  coutfifo;
+     char inbuff[FL_SERIAL_BUFF_LEN];
+     char outbuff[FL_SERIAL_BUFF_LEN];
+     mtx_t inFifo_mutex;
+     mtx_t outFifo_mutex;
+-    flcallback callback;
++    std::atomic<flcallback> callback;
+ } FlSerial;
+ 
+ int SerialThread(void *aArg)
+@@ -33,7 +34,7 @@
+     ring_buffer_size_t total = 0;
+     int isEmpty = 0;
+ 
+-    while (!serial->breakThread)
++    while (!serial->breakThread.load(std::memory_order_acquire))
+     {
+         try
+         {
+@@ -44,12 +45,14 @@
+                 ring_buffer_queue_arr(&serial->cinfifo, (const char *)buff, res);
+                 mtx_unlock(&serial->inFifo_mutex);
+                 total += res;
+-                if(!serial->serialport->available()){
+-                    serial->callback(0, total);
+-                    total = 0;
+-                } else {
+-                    continue;
+-                }
++            }
++            // fl_open starts this worker before Dart can register its callback.
++            // Preserve early bytes and notify once registration is visible,
++            // including when no additional bytes arrive after registration.
++            flcallback cb = serial->callback.load(std::memory_order_acquire);
++            if (total > 0 && cb != nullptr && !serial->serialport->available()) {
++                cb(0, total);
++                total = 0;
+             }
+ 
+                 mtx_lock(&serial->outFifo_mutex);
+@@ -88,7 +91,7 @@
+     if (port == NULL)
+         return;
+ 
+-    port->breakThread = 1;
++    port->breakThread.store(1, std::memory_order_release);
+ 
+     try
+     {
+@@ -113,7 +116,7 @@
+ FFI_PLUGIN_EXPORT int fl_set_callback(int flh, flcallback cb)
+ {
+     FlSerial *port = flserial_tab[flh];
+-    port->callback = cb;
++    port->callback.store(cb, std::memory_order_release);
+     return 0;
+ }
+ 
+@@ -142,7 +145,10 @@
+     _fl_close_slot(porth);
+ 
+     FlSerial *port = new FlSerial();
+-    port->breakThread = 0;
++    port->breakThread.store(0, std::memory_order_relaxed);
++    port->callback.store(nullptr, std::memory_order_relaxed);
++    mtx_init(&port->inFifo_mutex, mtx_plain);
++    mtx_init(&port->outFifo_mutex, mtx_plain);
+ 
+     flserial_tab[porth] = port;
+ 
+@@ -169,8 +175,6 @@
+         port->serialport->setParity(serial::parity_t::parity_none);
+         port->serialport->setStopbits(serial::stopbits_one);
+         thrd_create(&port->cthread, SerialThread, (void *)port);
+-        mtx_init(&port->inFifo_mutex, mtx_plain);
+-        mtx_init(&port->outFifo_mutex, mtx_plain);
+     }
+     catch (const serial::IOException &ioe)
+     {

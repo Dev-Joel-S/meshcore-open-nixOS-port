@@ -21,3 +21,10 @@ BlueZ-Dienst, USB die vorhandenen Geräteberechtigungen.
 Rekursive ELF- und ABI-Prüfung, originale Asset-Hashes und isolierter Wayland-
 Start wurden getestet. Eine echte NixOS-VM und physische Funkgeräte wurden
 nicht getestet. Weitere Details stehen in `meshcore-portable/README.txt`.
+
+USB boot-data correction: the native serial plugin now waits for callback
+registration before notification and initializes its mutexes before starting
+the worker. Early `[BOOT]` data previously caused a NULL callback SIGSEGV.
+The regression reproduces the crash in the official library and passes
+30 cycles with the replacement. All prior runtime corrections are included.
+Source, patch, rebuild recipe and test results are included in `validation/`.

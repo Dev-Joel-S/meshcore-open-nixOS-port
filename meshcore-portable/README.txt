@@ -59,3 +59,13 @@ fall back to C.UTF-8. No host /usr/share/X11/xkb or locale archive needed.
 Executed: German/US keymap symbols and locales; GUI rendered with a Weston
 Wayland compositor in a PRoot root without host /usr, /lib or XKB data.
 No actual NixOS VM was executed.
+
+USB early-data crash correction:
+The official native libflserial.so can call a NULL callback when a serial
+device sends boot data before Dart registers its callback. Reproduced with
+a pseudoterminal and delayed callback registration: original exits on
+SIGSEGV (139), replacement preserves early data and delivers the callback.
+Only this native plugin was rebuilt from pinned source with the included
+patch. Callback/stop flags are atomic; mutexes precede worker creation.
+Bidirectional serial I/O also passes with the replacement. All Flutter
+assets and the Flutter executable remain unchanged. No Flutter SDK needed.
