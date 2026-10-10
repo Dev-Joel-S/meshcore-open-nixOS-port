@@ -1,0 +1,4698 @@
+{
+  "elf_objects": 197,
+  "asset_files_verified": 26,
+  "errors": [],
+  "objects": [
+    {
+      "file": ".ld-linux-x86-64.so.2",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "bin/bluetoothctl",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "bin/busybox",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "bin/gdk-pixbuf-query-loaders",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "bin/xdg-user-dir",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "lib/dri/libdril_dri.so",
+      "needed": [
+        "libgbm.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-ani.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-bmp.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-gif.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-icns.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-ico.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-pnm.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-qtif.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-tga.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.14",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-tiff.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libtiff.so.6",
+        "libm.so.6",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libtiff.so.6": [
+          "LIBTIFF_4.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-xbm.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.7",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader-xpm.so",
+      "needed": [
+        "libgdk_pixbuf-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gdk-pixbuf/loaders/libpixbufloader_svg.so",
+      "needed": [
+        "librsvg-2.so.2",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.28",
+          "GLIBC_2.3",
+          "GLIBC_2.18",
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_4.2.0",
+          "GCC_3.3",
+          "GCC_3.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/gio/modules/libdconfsettings.so",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gio/modules/libgiognomeproxy.so",
+      "needed": [
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/gio/modules/libgiognutls.so",
+      "needed": [
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgnutls.so.30",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ],
+        "libgnutls.so.30": [
+          "GNUTLS_3_6_3",
+          "GNUTLS_3_7_4",
+          "GNUTLS_3_4"
+        ]
+      }
+    },
+    {
+      "file": "lib/gio/modules/libgiolibproxy.so",
+      "needed": [
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libproxy.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ],
+        "libproxy.so.1": [
+          "LIBPROXY_0.4.16"
+        ]
+      }
+    },
+    {
+      "file": "lib/ld-linux-x86-64.so.2",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "lib/libEGL.so.1",
+      "needed": [
+        "libGLdispatch.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.7",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libEGL_mesa.so.0",
+      "needed": [
+        "libgallium-25.0.7-2+deb13u1.so",
+        "libgbm.so.1",
+        "libexpat.so.1",
+        "libX11-xcb.so.1",
+        "libxcb.so.1",
+        "libxcb-randr.so.0",
+        "libxcb-xfixes.so.0",
+        "libxcb-shm.so.0",
+        "libdrm.so.2",
+        "libwayland-client.so.0",
+        "libwayland-server.so.0",
+        "libxcb-dri3.so.0",
+        "libxcb-present.so.0",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.29"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.28",
+          "GLIBC_2.38",
+          "GLIBC_2.27",
+          "GLIBC_2.3",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34",
+          "GLIBC_2.3.2"
+        ],
+        "libgallium-25.0.7-2+deb13u1.so": [
+          "libgallium-25.0.7-2+deb13u1.so"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGL.so.1",
+      "needed": [
+        "libGLdispatch.so.0",
+        "libGLX.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGLESv1_CM.so.1",
+      "needed": [
+        "libGLdispatch.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGLESv2.so.2",
+      "needed": [
+        "libGLdispatch.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGLX.so.0",
+      "needed": [
+        "libGLdispatch.so.0",
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.7",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGLX_mesa.so.0",
+      "needed": [
+        "libgallium-25.0.7-2+deb13u1.so",
+        "libdrm.so.2",
+        "libX11.so.6",
+        "libxcb-glx.so.0",
+        "libxcb.so.1",
+        "libX11-xcb.so.1",
+        "libXext.so.6",
+        "libXxf86vm.so.1",
+        "libxcb-shm.so.0",
+        "libexpat.so.1",
+        "libxcb-dri3.so.0",
+        "libxcb-present.so.0",
+        "libxcb-xfixes.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.29"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.28",
+          "GLIBC_2.38",
+          "GLIBC_2.3",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34"
+        ],
+        "libgallium-25.0.7-2+deb13u1.so": [
+          "libgallium-25.0.7-2+deb13u1.so"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGLdispatch.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libGemmaModelConstraintProvider.so",
+      "needed": [
+        "libm.so.6",
+        "libpthread.so.0",
+        "librt.so.1",
+        "libdl.so.2",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libpthread.so.0": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.3",
+          "GLIBC_2.12"
+        ],
+        "librt.so.1": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.3"
+        ],
+        "libdl.so.2": [
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.3.4",
+          "GLIBC_2.6",
+          "GLIBC_2.16",
+          "GLIBC_2.18",
+          "GLIBC_2.25",
+          "GLIBC_2.26",
+          "GLIBC_2.27"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3",
+          "GLIBC_PRIVATE"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLLVM.so.19.1",
+      "needed": [
+        "libffi.so.8",
+        "libedit.so.2",
+        "libm.so.6",
+        "libz3.so.4",
+        "libz.so.1",
+        "libzstd.so.1",
+        "libxml2.so.2",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.6",
+          "GLIBC_2.2.5",
+          "GLIBC_2.16",
+          "GLIBC_2.36",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.38",
+          "GLIBC_2.11",
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.7",
+          "GLIBC_2.32",
+          "GLIBC_2.15",
+          "GLIBC_2.33",
+          "GLIBC_2.3",
+          "GLIBC_2.17"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.18",
+          "CXXABI_1.3.11",
+          "CXXABI_1.3.13",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.14",
+          "GLIBCXX_3.4",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.30",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.17",
+          "CXXABI_1.3.3"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.3",
+          "GCC_3.0",
+          "GCC_4.3.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.29",
+          "GLIBC_2.27",
+          "GLIBC_2.38",
+          "GLIBC_2.26"
+        ],
+        "libz.so.1": [
+          "ZLIB_1.2.0"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libxml2.so.2": [
+          "LIBXML2_2.4.30",
+          "LIBXML2_2.6.0"
+        ],
+        "libffi.so.8": [
+          "LIBFFI_BASE_8.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLerc.so.4",
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.21",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.29",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLiteRt.so",
+      "needed": [
+        "libm.so.6",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.27",
+          "GLIBC_2.29",
+          "GLIBC_2.38"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.9",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.14",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.17",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.30",
+          "GLIBCXX_3.4.31",
+          "CXXABI_1.3",
+          "CXXABI_1.3.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.16",
+          "GLIBC_2.17",
+          "GLIBC_2.32",
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.38"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLiteRtLm.so",
+      "needed": [
+        "libGemmaModelConstraintProvider.so",
+        "libLiteRt.so",
+        "libm.so.6",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libGemmaModelConstraintProvider.so": [
+          "VERS_1.0"
+        ],
+        "libLiteRt.so": [
+          "VERS_1.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.27",
+          "GLIBC_2.29",
+          "GLIBC_2.38"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.5",
+          "GLIBCXX_3.4.9",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.14",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.17",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.30",
+          "GLIBCXX_3.4.31",
+          "CXXABI_1.3",
+          "CXXABI_1.3.2",
+          "CXXABI_1.3.3",
+          "CXXABI_1.3.5",
+          "CXXABI_1.3.7",
+          "CXXABI_1.3.11",
+          "CXXABI_1.3.13"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3",
+          "GCC_4.2.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.5",
+          "GLIBC_2.6",
+          "GLIBC_2.7",
+          "GLIBC_2.9",
+          "GLIBC_2.10",
+          "GLIBC_2.14",
+          "GLIBC_2.15",
+          "GLIBC_2.16",
+          "GLIBC_2.17",
+          "GLIBC_2.18",
+          "GLIBC_2.25",
+          "GLIBC_2.27",
+          "GLIBC_2.28",
+          "GLIBC_2.29",
+          "GLIBC_2.32",
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.38",
+          "GLIBC_2.39"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLiteRtTopKWebGpuSampler.so",
+      "needed": [
+        "libLiteRt.so",
+        "libm.so.6",
+        "libpthread.so.0",
+        "librt.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libLiteRt.so": [
+          "VERS_1.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libpthread.so.0": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2"
+        ],
+        "librt.so.1": [
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.16",
+          "GLIBC_2.26"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libLiteRtWebGpuAccelerator.so",
+      "needed": [
+        "libm.so.6",
+        "libpthread.so.0",
+        "libdl.so.2",
+        "librt.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libpthread.so.0": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2"
+        ],
+        "libdl.so.2": [
+          "GLIBC_2.2.5"
+        ],
+        "librt.so.1": [
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.3.3",
+          "GLIBC_2.16",
+          "GLIBC_2.18",
+          "GLIBC_2.26"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libX11-xcb.so.1",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "lib/libX11.so.6",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.15",
+          "GLIBC_2.4",
+          "GLIBC_2.26",
+          "GLIBC_2.3.2",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXau.so.6",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.25",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXcomposite.so.1",
+      "needed": [
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXcursor.so.1",
+      "needed": [
+        "libXrender.so.1",
+        "libXfixes.so.3",
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXdamage.so.1",
+      "needed": [
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXdmcp.so.6",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.36",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXext.so.6",
+      "needed": [
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXfixes.so.3",
+      "needed": [
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXi.so.6",
+      "needed": [
+        "libX11.so.6",
+        "libXext.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXinerama.so.1",
+      "needed": [
+        "libX11.so.6",
+        "libXext.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXrandr.so.2",
+      "needed": [
+        "libXext.so.6",
+        "libXrender.so.1",
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXrender.so.1",
+      "needed": [
+        "libX11.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libXxf86vm.so.1",
+      "needed": [
+        "libX11.so.6",
+        "libXext.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libapp.so",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "lib/libatk-1.0.so.0",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libatk-bridge-2.0.so.0",
+      "needed": [
+        "libatspi.so.0",
+        "libatk-1.0.so.0",
+        "libdbus-1.so.3",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.38",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5"
+        ],
+        "libdbus-1.so.3": [
+          "LIBDBUS_1_3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libatomic.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libatspi.so.0",
+      "needed": [
+        "libdbus-1.so.3",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libX11.so.6",
+        "libXi.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5",
+          "GLIBC_2.7",
+          "GLIBC_2.3.4"
+        ],
+        "libdbus-1.so.3": [
+          "LIBDBUS_1_3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libblkid.so.1",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.25",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.8",
+          "GLIBC_2.7",
+          "GLIBC_2.3",
+          "GLIBC_2.4",
+          "GLIBC_2.26",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libbrotlicommon.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libbrotlidec.so.1",
+      "needed": [
+        "libbrotlicommon.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libbsd.so.0",
+      "needed": [
+        "libmd.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libmd.so.0": [
+          "LIBMD_0.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.3.2",
+          "GLIBC_2.4",
+          "GLIBC_2.38",
+          "GLIBC_2.25",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libbz2.so.1.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libc.so.6",
+      "needed": [
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.35",
+          "GLIBC_PRIVATE"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcairo-gobject.so.2",
+      "needed": [
+        "libcairo.so.2",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0"
+      ],
+      "versions": {}
+    },
+    {
+      "file": "lib/libcairo.so.2",
+      "needed": [
+        "libm.so.6",
+        "libz.so.1",
+        "libpng16.so.16",
+        "libfontconfig.so.1",
+        "libfreetype.so.6",
+        "libX11.so.6",
+        "libXext.so.6",
+        "libXrender.so.1",
+        "libxcb.so.1",
+        "libxcb-render.so.0",
+        "libxcb-shm.so.0",
+        "libpixman-1.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libpng16.so.16": [
+          "PNG16_0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.38",
+          "GLIBC_2.35",
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.28",
+          "GLIBC_2.38",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.11",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcap.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.9",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcloudproviders.so.0",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcom_err.so.2",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcrypto.so.3",
+      "needed": [
+        "libz.so.1",
+        "libzstd.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.15",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.25",
+          "GLIBC_2.33",
+          "GLIBC_2.12",
+          "GLIBC_2.7",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.16",
+          "GLIBC_2.3.2",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libcurl-gnutls.so.4",
+      "needed": [
+        "libnghttp3.so.9",
+        "libngtcp2_crypto_gnutls.so.8",
+        "libngtcp2.so.16",
+        "libnghttp2.so.14",
+        "libidn2.so.0",
+        "librtmp.so.1",
+        "libssh2.so.1",
+        "libpsl.so.5",
+        "libnettle.so.8",
+        "libgnutls.so.30",
+        "libgssapi_krb5.so.2",
+        "libldap.so.2",
+        "liblber.so.2",
+        "libzstd.so.1",
+        "libbrotlidec.so.1",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libz.so.1": [
+          "ZLIB_1.2.3.4"
+        ],
+        "libidn2.so.0": [
+          "IDN2_0.0.0"
+        ],
+        "liblber.so.2": [
+          "OPENLDAP_2.200"
+        ],
+        "libgssapi_krb5.so.2": [
+          "gssapi_krb5_2_MIT"
+        ],
+        "libnettle.so.8": [
+          "NETTLE_8"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.15",
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.10",
+          "GLIBC_2.3",
+          "GLIBC_2.7",
+          "GLIBC_2.3.4",
+          "GLIBC_2.33",
+          "GLIBC_2.12",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ],
+        "libldap.so.2": [
+          "OPENLDAP_2.200"
+        ],
+        "libgnutls.so.30": [
+          "GNUTLS_3_6_13",
+          "GNUTLS_3_6_5",
+          "GNUTLS_3_4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdatrie.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdav1d.so.7",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.32",
+          "GLIBC_2.34",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.6",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdbus-1.so.3",
+      "needed": [
+        "libsystemd.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libsystemd.so.0": [
+          "LIBSYSTEMD_209"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.25",
+          "GLIBC_2.28",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.10",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.3.2",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdeflate.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdl.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdrm.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdrm_amdgpu.so.1",
+      "needed": [
+        "libdrm.so.2",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.28",
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libdrm_intel.so.1",
+      "needed": [
+        "libdrm.so.2",
+        "libpciaccess.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libduktape.so.207",
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.29"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.11",
+          "GLIBC_2.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libedit.so.2",
+      "needed": [
+        "libtinfo.so.6",
+        "libbsd.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libbsd.so.0": [
+          "LIBBSD_0.0"
+        ],
+        "libtinfo.so.6": [
+          "NCURSES6_TINFO_5.0.19991023"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.11",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libelf.so.1",
+      "needed": [
+        "libz.so.1",
+        "libzstd.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libepoxy.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.3.4",
+          "GLIBC_2.7",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34"
+        ]
+      }
+    },
+    {
+      "file": "lib/libexpat.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.36",
+          "GLIBC_2.25",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libffi.so.8",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libfile_selector_linux_plugin.so",
+      "needed": [
+        "libflutter_linux_gtk.so",
+        "libgtk-3.so.0",
+        "libgdk-3.so.0",
+        "libz.so.1",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libharfbuzz.so.0",
+        "libatk-1.0.so.0",
+        "libcairo-gobject.so.2",
+        "libcairo.so.2",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libflserial.so",
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.14",
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.3.2",
+          "GLIBC_2.17",
+          "GLIBC_2.27"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4",
+          "CXXABI_1.3.9",
+          "CXXABI_1.3.1",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.32",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.9",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.11"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libflutter_linux_gtk.so",
+      "needed": [
+        "libdl.so.2",
+        "libgtk-3.so.0",
+        "libgdk-3.so.0",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libatk-1.0.so.0",
+        "libcairo.so.2",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libepoxy.so.0",
+        "libfontconfig.so.1",
+        "libpthread.so.0",
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libdl.so.2": [
+          "GLIBC_2.2.5"
+        ],
+        "libpthread.so.0": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.3",
+          "GLIBC_2.12"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.3",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.3",
+          "GLIBC_2.4",
+          "GLIBC_2.6",
+          "GLIBC_2.7",
+          "GLIBC_2.8",
+          "GLIBC_2.9",
+          "GLIBC_2.10",
+          "GLIBC_2.14",
+          "GLIBC_2.16",
+          "GLIBC_2.17",
+          "GLIBC_2.18"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libflutter_onnxruntime_plugin.so",
+      "needed": [
+        "libonnxruntime.so.1",
+        "libflutter_linux_gtk.so",
+        "libgtk-3.so.0",
+        "libgdk-3.so.0",
+        "libz.so.1",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libharfbuzz.so.0",
+        "libatk-1.0.so.0",
+        "libcairo-gobject.so.2",
+        "libcairo.so.2",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.14"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.29",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.32",
+          "GLIBCXX_3.4.9"
+        ],
+        "libonnxruntime.so.1": [
+          "VERS_1.22.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libfontconfig.so.1",
+      "needed": [
+        "libfreetype.so.6",
+        "libexpat.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.38",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libfreetype.so.6",
+      "needed": [
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libpng16.so.16",
+        "libbrotlidec.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.11",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libpng16.so.16": [
+          "PNG16_0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libfribidi.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgallium-25.0.7-2+deb13u1.so",
+      "needed": [
+        "libdrm.so.2",
+        "libLLVM.so.19.1",
+        "libexpat.so.1",
+        "libz.so.1",
+        "libzstd.so.1",
+        "libsensors.so.5",
+        "libxcb.so.1",
+        "libxcb-randr.so.0",
+        "libxcb-sync.so.1",
+        "libxcb-present.so.0",
+        "libxshmfence.so.1",
+        "libxcb-xfixes.so.0",
+        "libxcb-dri3.so.0",
+        "libelf.so.1",
+        "libdrm_amdgpu.so.1",
+        "libdrm_intel.so.1",
+        "libX11-xcb.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.4"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ],
+        "libelf.so.1": [
+          "ELFUTILS_1.5",
+          "ELFUTILS_1.0"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.20",
+          "CXXABI_1.3.8",
+          "GLIBCXX_3.4.14",
+          "CXXABI_1.3.5",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.29",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.28",
+          "GLIBCXX_3.4.9",
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.21"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.7",
+          "GLIBC_2.9",
+          "GLIBC_2.11",
+          "GLIBC_2.6",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.25",
+          "GLIBC_2.8",
+          "GLIBC_2.26",
+          "GLIBC_2.27",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.28",
+          "GLIBC_2.32",
+          "GLIBC_2.3",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ],
+        "libLLVM.so.19.1": [
+          "LLVM_19.1"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgbm.so.1",
+      "needed": [
+        "libdrm.so.2",
+        "libexpat.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgcc_s.so.1",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.35",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.3.2",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgdk-3.so.0",
+      "needed": [
+        "libm.so.6",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libcairo.so.2",
+        "libpango-1.0.so.0",
+        "libfribidi.so.0",
+        "libcairo-gobject.so.2",
+        "libepoxy.so.0",
+        "libfontconfig.so.1",
+        "libgio-2.0.so.0",
+        "libpangocairo-1.0.so.0",
+        "libxkbcommon.so.0",
+        "libwayland-client.so.0",
+        "libwayland-cursor.so.0",
+        "libwayland-egl.so.1",
+        "libX11.so.6",
+        "libXi.so.6",
+        "libXext.so.6",
+        "libXcursor.so.1",
+        "libXdamage.so.1",
+        "libXfixes.so.3",
+        "libXcomposite.so.1",
+        "libXrandr.so.2",
+        "libXinerama.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ],
+        "libxkbcommon.so.0": [
+          "V_0.5.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.34",
+          "GLIBC_2.26",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgdk_pixbuf-2.0.so.0",
+      "needed": [
+        "libm.so.6",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libpng16.so.16",
+        "libjpeg.so.62",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libjpeg.so.62": [
+          "LIBJPEG_6.2"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.11",
+          "GLIBC_2.2.5"
+        ],
+        "libpng16.so.16": [
+          "PNG16_0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libggml-base.so",
+      "needed": [
+        "libgomp.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libgomp.so.1": [
+          "GOMP_4.0",
+          "GOMP_4.5",
+          "GOMP_1.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.20",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.11",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.14",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libggml-cpu.so",
+      "needed": [
+        "libggml-base.so.0",
+        "libgomp.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libgomp.so.1": [
+          "OMP_1.0",
+          "GOMP_4.0",
+          "GOMP_1.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.32",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.7",
+          "GLIBC_2.14",
+          "GLIBC_2.29",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.29",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libggml-vulkan.so",
+      "needed": [
+        "libggml-base.so.0",
+        "libvulkan.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.32",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.32",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.30",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.21",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libggml.so",
+      "needed": [
+        "libggml-base.so.0",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.32",
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.20",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.26"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgio-2.0.so.0",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libz.so.1",
+        "libmount.so.1",
+        "libselinux.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libz.so.1": [
+          "ZLIB_1.2.2"
+        ],
+        "libselinux.so.1": [
+          "LIBSELINUX_1.0"
+        ],
+        "libmount.so.1": [
+          "MOUNT_2_40",
+          "MOUNT_2.20",
+          "MOUNT_2.26",
+          "MOUNT_2.19"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.10",
+          "GLIBC_2.28",
+          "GLIBC_2.6",
+          "GLIBC_2.38",
+          "GLIBC_2.3.2",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.27",
+          "GLIBC_2.3.4",
+          "GLIBC_2.12",
+          "GLIBC_2.5",
+          "GLIBC_2.14",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.3",
+          "GLIBC_2.9",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libglib-2.0.so.0",
+      "needed": [
+        "libatomic.so.1",
+        "libm.so.6",
+        "libpcre2-8.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.8",
+          "GLIBC_2.14",
+          "GLIBC_2.10",
+          "GLIBC_2.28",
+          "GLIBC_2.6",
+          "GLIBC_2.15",
+          "GLIBC_2.3.3",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.38",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.32",
+          "GLIBC_2.16",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.9",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgmodule-2.0.so.0",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgmp.so.10",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgnutls.so.30",
+      "needed": [
+        "libp11-kit.so.0",
+        "libidn2.so.0",
+        "libunistring.so.5",
+        "libtasn1.so.6",
+        "libhogweed.so.6",
+        "libnettle.so.8",
+        "libgmp.so.10",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libidn2.so.0": [
+          "IDN2_0.0.0"
+        ],
+        "libhogweed.so.6": [
+          "HOGWEED_6"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.8",
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.25",
+          "GLIBC_2.3",
+          "GLIBC_2.3.2",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ],
+        "libtasn1.so.6": [
+          "LIBTASN1_0_3"
+        ],
+        "libp11-kit.so.0": [
+          "LIBP11_KIT_1.0"
+        ],
+        "libnettle.so.8": [
+          "NETTLE_8"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgobject-2.0.so.0",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libffi.so.8",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libffi.so.8": [
+          "LIBFFI_BASE_8.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgomp.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.6",
+          "GLIBC_2.17",
+          "GLIBC_2.32",
+          "GLIBC_2.34",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgraphite2.so.3",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgssapi_krb5.so.2",
+      "needed": [
+        "libkrb5.so.3",
+        "libk5crypto.so.3",
+        "libcom_err.so.2",
+        "libkrb5support.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libk5crypto.so.3": [
+          "k5crypto_3_MIT"
+        ],
+        "libkrb5support.so.0": [
+          "krb5support_0_MIT"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.27",
+          "GLIBC_2.25",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libkrb5.so.3": [
+          "krb5_3_MIT"
+        ]
+      }
+    },
+    {
+      "file": "lib/libgtk-3.so.0",
+      "needed": [
+        "libgdk-3.so.0",
+        "libgmodule-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libharfbuzz.so.0",
+        "libcairo.so.2",
+        "libpangoft2-1.0.so.0",
+        "libfontconfig.so.1",
+        "libfribidi.so.0",
+        "libcairo-gobject.so.2",
+        "libgdk_pixbuf-2.0.so.0",
+        "libatk-1.0.so.0",
+        "libepoxy.so.0",
+        "libm.so.6",
+        "libXi.so.6",
+        "libX11.so.6",
+        "libatk-bridge-2.0.so.0",
+        "libcloudproviders.so.0",
+        "libXfixes.so.3",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libharfbuzz.so.0",
+      "needed": [
+        "libm.so.6",
+        "libfreetype.so.6",
+        "libglib-2.0.so.0",
+        "libgraphite2.so.3",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.35",
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libhogweed.so.6",
+      "needed": [
+        "libnettle.so.8",
+        "libgmp.so.10",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ],
+        "libnettle.so.8": [
+          "NETTLE_8"
+        ]
+      }
+    },
+    {
+      "file": "lib/libidn2.so.0",
+      "needed": [
+        "libunistring.so.5",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libjbig.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libjpeg.so.62",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.7",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libk5crypto.so.3",
+      "needed": [
+        "libkrb5support.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libkrb5support.so.0": [
+          "krb5support_0_MIT"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.25",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libkeyutils.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.7",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libkrb5.so.3",
+      "needed": [
+        "libk5crypto.so.3",
+        "libcom_err.so.2",
+        "libkrb5support.so.0",
+        "libkeyutils.so.1",
+        "libresolv.so.2",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libresolv.so.2": [
+          "GLIBC_2.9"
+        ],
+        "libk5crypto.so.3": [
+          "k5crypto_3_MIT"
+        ],
+        "libkrb5support.so.0": [
+          "krb5support_0_MIT"
+        ],
+        "libkeyutils.so.1": [
+          "KEYUTILS_1.0",
+          "KEYUTILS_1.5",
+          "KEYUTILS_0.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.25",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.8",
+          "GLIBC_2.34",
+          "GLIBC_2.16",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libkrb5support.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.25",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/liblber.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.38"
+        ]
+      }
+    },
+    {
+      "file": "lib/libldap.so.2",
+      "needed": [
+        "liblber.so.2",
+        "libsasl2.so.2",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libsasl2.so.2": [
+          "SASL2"
+        ],
+        "libcrypto.so.3": [
+          "OPENSSL_3.0.0"
+        ],
+        "liblber.so.2": [
+          "OPENLDAP_2.200"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.22",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2"
+        ],
+        "libssl.so.3": [
+          "OPENSSL_3.0.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libllama-common.so",
+      "needed": [
+        "libllama.so.0",
+        "libggml.so.0",
+        "libggml-base.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.27",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3.7",
+          "GLIBCXX_3.4.32",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.17",
+          "CXXABI_1.3.3",
+          "CXXABI_1.3.9",
+          "CXXABI_1.3.11",
+          "CXXABI_1.3.2",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.30",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.14",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.22",
+          "CXXABI_1.3.13",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.32",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.10",
+          "GLIBC_2.38",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libllama.so",
+      "needed": [
+        "libggml.so.0",
+        "libggml-base.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.27",
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.4",
+          "GCC_3.3.1"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.32",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.25",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.17",
+          "CXXABI_1.3.3",
+          "CXXABI_1.3.9",
+          "CXXABI_1.3.11",
+          "CXXABI_1.3.2",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.14",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.15",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.21",
+          "CXXABI_1.3.13",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libllamadart.so",
+      "needed": [
+        "libllama-common.so.0",
+        "libllama.so.0",
+        "libggml-base.so.0",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libstdc++.so.6": [
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ]
+      }
+    },
+    {
+      "file": "lib/liblzma.so.5",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.32",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.6",
+          "GLIBC_2.3.2",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libm.so.6",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_PRIVATE"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_PRIVATE"
+        ]
+      }
+    },
+    {
+      "file": "lib/libmd.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libmount.so.1",
+      "needed": [
+        "libblkid.so.1",
+        "libselinux.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libblkid.so.1": [
+          "BLKID_1.0",
+          "BLKID_2.17",
+          "BLKID_2.15"
+        ],
+        "libselinux.so.1": [
+          "LIBSELINUX_1.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.9",
+          "GLIBC_2.25",
+          "GLIBC_2.28",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.3.2",
+          "GLIBC_2.15",
+          "GLIBC_2.14",
+          "GLIBC_2.7",
+          "GLIBC_2.3",
+          "GLIBC_2.4",
+          "GLIBC_2.26",
+          "GLIBC_2.17",
+          "GLIBC_2.6",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.36",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libmtmd.so",
+      "needed": [
+        "libllama.so.0",
+        "libggml.so.0",
+        "libggml-base.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.3.1"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.27",
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.18",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.29",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.14",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.15",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libnettle.so.8",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libnghttp2.so.14",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libnghttp3.so.9",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libngtcp2.so.16",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.25",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libngtcp2_crypto_gnutls.so.8",
+      "needed": [
+        "libngtcp2.so.16",
+        "libgnutls.so.30",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libgnutls.so.30": [
+          "GNUTLS_3_6_13",
+          "GNUTLS_3_7_2",
+          "GNUTLS_3_4",
+          "GNUTLS_3_7_0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libnss_dns.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libnss_files.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libonnxruntime.so.1.22.0",
+      "needed": [
+        "libdl.so.2",
+        "librt.so.1",
+        "libpthread.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libgcc_s.so.1": [
+          "GCC_3.3.1",
+          "GCC_3.4",
+          "GCC_3.0",
+          "GCC_4.0.0"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libpthread.so.0": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.16",
+          "GLIBC_2.17",
+          "GLIBC_2.4",
+          "GLIBC_2.6",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.3",
+          "GLIBC_2.14"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.14",
+          "GLIBCXX_3.4.17",
+          "GLIBCXX_3.4.22",
+          "CXXABI_1.3.8",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.19",
+          "CXXABI_1.3.11",
+          "CXXABI_1.3.5",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3.7",
+          "GLIBCXX_3.4.15",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.11",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.20",
+          "CXXABI_1.3.2",
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.21"
+        ],
+        "libdl.so.2": [
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libonnxruntime_providers_shared.so",
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libp11-kit.so.0",
+      "needed": [
+        "libffi.so.8",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libffi.so.8": [
+          "LIBFFI_CLOSURE_8.0",
+          "LIBFFI_BASE_8.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.16",
+          "GLIBC_2.6",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.8",
+          "GLIBC_2.3",
+          "GLIBC_2.4",
+          "GLIBC_2.26",
+          "GLIBC_2.3.2",
+          "GLIBC_2.34",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpango-1.0.so.0",
+      "needed": [
+        "libm.so.6",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libfribidi.so.0",
+        "libthai.so.0",
+        "libharfbuzz.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libthai.so.0": [
+          "LIBTHAI_0.1",
+          "LIBTHAI_0.1.25"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpangocairo-1.0.so.0",
+      "needed": [
+        "libpango-1.0.so.0",
+        "libpangoft2-1.0.so.0",
+        "libm.so.6",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libharfbuzz.so.0",
+        "libfontconfig.so.1",
+        "libcairo.so.2",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpangoft2-1.0.so.0",
+      "needed": [
+        "libpango-1.0.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libharfbuzz.so.0",
+        "libfontconfig.so.1",
+        "libfreetype.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.4",
+          "GLIBC_2.28",
+          "GLIBC_2.6",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpciaccess.so.0",
+      "needed": [
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpcre2-8.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpixman-1.so.0",
+      "needed": [
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpng16.so.16",
+      "needed": [
+        "libz.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libz.so.1": [
+          "ZLIB_1.2.3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.11",
+          "GLIBC_2.2.5"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libproxy.so.1",
+      "needed": [
+        "libpxbackend-1.0.so",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0"
+      ],
+      "versions": {}
+    },
+    {
+      "file": "lib/libpsl.so.5",
+      "needed": [
+        "libunistring.so.5",
+        "libidn2.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libidn2.so.0": [
+          "IDN2_0.0.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpthread.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libpxbackend-1.0.so",
+      "needed": [
+        "libcurl-gnutls.so.4",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libduktape.so.207",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libcurl-gnutls.so.4": [
+          "CURL_GNUTLS_3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libreadline.so.8",
+      "needed": [
+        "libtinfo.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libtinfo.so.6": [
+          "NCURSES6_TINFO_5.0.19991023"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.11",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.15",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/libresolv.so.2",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.34",
+          "GLIBC_PRIVATE",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3"
+        ]
+      }
+    },
+    {
+      "file": "lib/librsvg-2.so.2",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgdk_pixbuf-2.0.so.0",
+        "libcairo.so.2",
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1",
+        "libcairo-gobject.so.2",
+        "libdav1d.so.7",
+        "libxml2.so.2",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libxml2.so.2": [
+          "LIBXML2_2.7.0",
+          "LIBXML2_2.4.30",
+          "LIBXML2_2.6.0"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.3",
+          "GCC_3.0",
+          "GCC_4.2.0"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.32",
+          "GLIBC_2.25",
+          "GLIBC_2.18",
+          "GLIBC_2.33",
+          "GLIBC_2.16",
+          "GLIBC_2.3",
+          "GLIBC_2.28",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.14"
+        ]
+      }
+    },
+    {
+      "file": "lib/librt.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.36",
+          "GLIBC_ABI_DT_RELR",
+          "GLIBC_2.2.5",
+          "GLIBC_PRIVATE"
+        ]
+      }
+    },
+    {
+      "file": "lib/librtmp.so.1",
+      "needed": [
+        "libgnutls.so.30",
+        "libhogweed.so.6",
+        "libnettle.so.8",
+        "libgmp.so.10",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libhogweed.so.6": [
+          "HOGWEED_6"
+        ],
+        "libnettle.so.8": [
+          "NETTLE_8"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.7",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ],
+        "libgnutls.so.30": [
+          "GNUTLS_3_4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libsasl2.so.2",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libcrypto.so.3": [
+          "OPENSSL_3.0.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.15",
+          "GLIBC_2.4",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.3",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libselinux.so.1",
+      "needed": [
+        "libpcre2-8.so.0",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.28",
+          "GLIBC_2.7",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.4",
+          "GLIBC_2.23",
+          "GLIBC_2.33",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3",
+          "GLIBC_2.26",
+          "GLIBC_2.30",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libsensors.so.5",
+      "needed": [
+        "libc.so.6",
+        "libm.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.29"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libsharpyuv.so.0",
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.29",
+          "GLIBC_2.27"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libssh2.so.1",
+      "needed": [
+        "libcrypto.so.3",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libcrypto.so.3": [
+          "OPENSSL_3.0.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.25",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libssl.so.3",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2"
+        ],
+        "libcrypto.so.3": [
+          "OPENSSL_3.3.0",
+          "OPENSSL_3.0.3",
+          "OPENSSL_3.4.0",
+          "OPENSSL_3.2.0",
+          "OPENSSL_3.0.0"
+        ]
+      }
+    },
+    {
+      "file": "lib/libstdc++.so.6",
+      "needed": [
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_4.2.0",
+          "GCC_3.3",
+          "GCC_4.3.0",
+          "GCC_3.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.38",
+          "GLIBC_2.6",
+          "GLIBC_2.26",
+          "GLIBC_2.25",
+          "GLIBC_2.18",
+          "GLIBC_2.32",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.17",
+          "GLIBC_2.3",
+          "GLIBC_2.36",
+          "GLIBC_2.3.2",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libsystemd.so.0",
+      "needed": [
+        "libcap.so.2",
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.39"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.35",
+          "GLIBC_2.10",
+          "GLIBC_2.30",
+          "GLIBC_2.28",
+          "GLIBC_2.25",
+          "GLIBC_2.27",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.33",
+          "GLIBC_2.36",
+          "GLIBC_2.4",
+          "GLIBC_2.38",
+          "GLIBC_2.26",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.32",
+          "GLIBC_2.16",
+          "GLIBC_2.7",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.9",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libtasn1.so.6",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38"
+        ]
+      }
+    },
+    {
+      "file": "lib/libthai.so.0",
+      "needed": [
+        "libdatrie.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libdatrie.so.1": [
+          "DATRIE_0.2"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libtiff.so.6",
+      "needed": [
+        "libwebp.so.7",
+        "libzstd.so.1",
+        "liblzma.so.5",
+        "libLerc.so.4",
+        "libjbig.so.0",
+        "libjpeg.so.62",
+        "libdeflate.so.0",
+        "libz.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "liblzma.so.5": [
+          "XZ_5.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.11",
+          "GLIBC_2.2.5"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ],
+        "libjpeg.so.62": [
+          "LIBJPEG_6.2"
+        ]
+      }
+    },
+    {
+      "file": "lib/libtinfo.so.6",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.16",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libudev.so.1",
+      "needed": [
+        "libcap.so.2",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.9",
+          "GLIBC_2.34",
+          "GLIBC_2.25",
+          "GLIBC_2.28",
+          "GLIBC_2.16",
+          "GLIBC_2.36",
+          "GLIBC_2.32",
+          "GLIBC_2.8",
+          "GLIBC_2.3.2",
+          "GLIBC_2.33",
+          "GLIBC_2.7",
+          "GLIBC_2.26",
+          "GLIBC_2.4",
+          "GLIBC_2.30",
+          "GLIBC_2.17",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libunistring.so.5",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.32",
+          "GLIBC_2.16",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/liburl_launcher_linux_plugin.so",
+      "needed": [
+        "libflutter_linux_gtk.so",
+        "libgtk-3.so.0",
+        "libgdk-3.so.0",
+        "libz.so.1",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libharfbuzz.so.0",
+        "libatk-1.0.so.0",
+        "libcairo-gobject.so.2",
+        "libcairo.so.2",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3",
+          "GLIBCXX_3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libusb-1.0.so.0",
+      "needed": [
+        "libudev.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libudev.so.1": [
+          "LIBUDEV_183"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.4",
+          "GLIBC_2.7",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.3.2",
+          "GLIBC_2.38",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libvulkan.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3",
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.38",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libvulkan_lvp.so",
+      "needed": [
+        "libLLVM.so.19.1",
+        "libz.so.1",
+        "libzstd.so.1",
+        "libdrm.so.2",
+        "libexpat.so.1",
+        "libxcb.so.1",
+        "libxcb-randr.so.0",
+        "libX11-xcb.so.1",
+        "libxcb-dri3.so.0",
+        "libxcb-present.so.0",
+        "libxcb-xfixes.so.0",
+        "libxcb-sync.so.1",
+        "libxcb-shm.so.0",
+        "libxshmfence.so.1",
+        "libwayland-client.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libgcc_s.so.1": [
+          "GCC_3.0",
+          "GCC_3.4"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5",
+          "GLIBC_2.27"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.14",
+          "CXXABI_1.3.5",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.21"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.6",
+          "GLIBC_2.9",
+          "GLIBC_2.11",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.25",
+          "GLIBC_2.8",
+          "GLIBC_2.34",
+          "GLIBC_2.26",
+          "GLIBC_2.27",
+          "GLIBC_2.17",
+          "GLIBC_2.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.28",
+          "GLIBC_2.32",
+          "GLIBC_2.3",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ],
+        "libLLVM.so.19.1": [
+          "LLVM_19.1"
+        ]
+      }
+    },
+    {
+      "file": "lib/libwayland-client.so.0",
+      "needed": [
+        "libffi.so.8",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libffi.so.8": [
+          "LIBFFI_BASE_8.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.9",
+          "GLIBC_2.28",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.10",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libwayland-cursor.so.0",
+      "needed": [
+        "libwayland-client.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.28",
+          "GLIBC_2.14",
+          "GLIBC_2.7",
+          "GLIBC_2.4",
+          "GLIBC_2.27",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libwayland-egl.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libwayland-server.so.0",
+      "needed": [
+        "libffi.so.8",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libffi.so.8": [
+          "LIBFFI_BASE_8.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.9",
+          "GLIBC_2.28",
+          "GLIBC_2.38",
+          "GLIBC_2.14",
+          "GLIBC_2.8",
+          "GLIBC_2.3.2",
+          "GLIBC_2.7",
+          "GLIBC_2.10",
+          "GLIBC_2.4",
+          "GLIBC_2.33",
+          "GLIBC_2.17",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libwebp.so.7",
+      "needed": [
+        "libsharpyuv.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libm.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.29"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.34",
+          "GLIBC_2.14",
+          "GLIBC_2.3.4",
+          "GLIBC_2.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-dri3.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-glx.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-present.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-randr.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-render.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-shm.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-sync.so.1",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb-xfixes.so.0",
+      "needed": [
+        "libxcb.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.2.5",
+          "GLIBC_2.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxcb.so.1",
+      "needed": [
+        "libXau.so.6",
+        "libXdmcp.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxkbcommon.so.0",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.8",
+          "GLIBC_2.14",
+          "GLIBC_2.33",
+          "GLIBC_2.4",
+          "GLIBC_2.17",
+          "GLIBC_2.3.4",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxml2.so.2",
+      "needed": [
+        "libz.so.1",
+        "liblzma.so.5",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libz.so.1": [
+          "ZLIB_1.2.3.3",
+          "ZLIB_1.2.2.3"
+        ],
+        "liblzma.so.5": [
+          "XZ_5.0"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.15",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.28",
+          "GLIBC_2.33",
+          "GLIBC_2.3",
+          "GLIBC_2.7",
+          "GLIBC_2.34",
+          "GLIBC_2.3.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.2.5"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.38",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libxshmfence.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.38",
+          "GLIBC_2.7",
+          "GLIBC_2.4",
+          "GLIBC_2.27",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libz.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.4"
+        ]
+      }
+    },
+    {
+      "file": "lib/libz3.so.4",
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "versions": {
+        "libgcc_s.so.1": [
+          "GCC_3.4",
+          "GCC_3.0"
+        ],
+        "ld-linux-x86-64.so.2": [
+          "GLIBC_2.3"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.34",
+          "GLIBC_2.38",
+          "GLIBC_2.32",
+          "GLIBC_2.3.2",
+          "GLIBC_2.4",
+          "GLIBC_2.3.4",
+          "GLIBC_2.2.5",
+          "GLIBC_2.33",
+          "GLIBC_2.14"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.14",
+          "GLIBCXX_3.4.18",
+          "GLIBCXX_3.4.19",
+          "GLIBCXX_3.4.31",
+          "GLIBCXX_3.4.32",
+          "GLIBCXX_3.4.17",
+          "GLIBCXX_3.4.30",
+          "CXXABI_1.3.15",
+          "GLIBCXX_3.4.22",
+          "GLIBCXX_3.4.29",
+          "GLIBCXX_3.4.26",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.21",
+          "CXXABI_1.3.9",
+          "GLIBCXX_3.4.9",
+          "GLIBCXX_3.4.15",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.20",
+          "CXXABI_1.3.2",
+          "GLIBCXX_3.4"
+        ],
+        "libm.so.6": [
+          "GLIBC_2.29",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "lib/libzstd.so.1",
+      "needed": [
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.3.4",
+          "GLIBC_2.34",
+          "GLIBC_2.8",
+          "GLIBC_2.14",
+          "GLIBC_2.4",
+          "GLIBC_2.3.2",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "libexec/bluetoothctl",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libdbus-1.so.3",
+        "libreadline.so.8",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.14",
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.3",
+          "GLIBC_2.8",
+          "GLIBC_2.38",
+          "GLIBC_2.33",
+          "GLIBC_2.3.4",
+          "GLIBC_2.17",
+          "GLIBC_2.7",
+          "GLIBC_2.2.5"
+        ],
+        "libdbus-1.so.3": [
+          "LIBDBUS_1_3"
+        ]
+      }
+    },
+    {
+      "file": "libexec/gdk-pixbuf-query-loaders",
+      "needed": [
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.34",
+          "GLIBC_2.4",
+          "GLIBC_2.2.5"
+        ]
+      }
+    },
+    {
+      "file": "meshcore-open",
+      "needed": [],
+      "versions": {}
+    },
+    {
+      "file": "meshcore_open",
+      "needed": [
+        "libfile_selector_linux_plugin.so",
+        "libflutter_onnxruntime_plugin.so",
+        "liburl_launcher_linux_plugin.so",
+        "libflutter_linux_gtk.so",
+        "libgtk-3.so.0",
+        "libgdk-3.so.0",
+        "libz.so.1",
+        "libpangocairo-1.0.so.0",
+        "libpango-1.0.so.0",
+        "libharfbuzz.so.0",
+        "libatk-1.0.so.0",
+        "libcairo-gobject.so.2",
+        "libcairo.so.2",
+        "libgdk_pixbuf-2.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "versions": {
+        "libc.so.6": [
+          "GLIBC_2.34",
+          "GLIBC_2.2.5"
+        ],
+        "libgcc_s.so.1": [
+          "GCC_3.0"
+        ],
+        "libstdc++.so.6": [
+          "CXXABI_1.3",
+          "GLIBCXX_3.4"
+        ]
+      }
+    }
+  ]
+}
