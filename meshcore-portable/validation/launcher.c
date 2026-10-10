@@ -41,6 +41,62 @@ static int prepare_runtime(void) {
  close(lock); return 0;
 }
 
+#include <sys/stat.h>
+static int restore_archive_links(void) {
+ static const struct { const char *name; const char *target; } links[]={
+  {"data/icons/Adwaita/cursors/arrow","default"},
+  {"data/icons/Adwaita/cursors/bd_double_arrow","nwse-resize"},
+  {"data/icons/Adwaita/cursors/bottom_left_corner","sw-resize"},
+  {"data/icons/Adwaita/cursors/bottom_right_corner","se-resize"},
+  {"data/icons/Adwaita/cursors/bottom_side","s-resize"},
+  {"data/icons/Adwaita/cursors/cross","crosshair"},
+  {"data/icons/Adwaita/cursors/cross_reverse","crosshair"},
+  {"data/icons/Adwaita/cursors/diamond_cross","crosshair"},
+  {"data/icons/Adwaita/cursors/dnd-move","default"},
+  {"data/icons/Adwaita/cursors/fd_double_arrow","nesw-resize"},
+  {"data/icons/Adwaita/cursors/fleur","all-resize"},
+  {"data/icons/Adwaita/cursors/hand1","grab"},
+  {"data/icons/Adwaita/cursors/hand2","pointer"},
+  {"data/icons/Adwaita/cursors/left_ptr","default"},
+  {"data/icons/Adwaita/cursors/left_side","w-resize"},
+  {"data/icons/Adwaita/cursors/move","default"},
+  {"data/icons/Adwaita/cursors/question_arrow","help"},
+  {"data/icons/Adwaita/cursors/right_side","e-resize"},
+  {"data/icons/Adwaita/cursors/sb_h_double_arrow","ew-resize"},
+  {"data/icons/Adwaita/cursors/sb_v_double_arrow","ns-resize"},
+  {"data/icons/Adwaita/cursors/tcross","crosshair"},
+  {"data/icons/Adwaita/cursors/top_left_arrow","default"},
+  {"data/icons/Adwaita/cursors/top_left_corner","nw-resize"},
+  {"data/icons/Adwaita/cursors/top_right_corner","ne-resize"},
+  {"data/icons/Adwaita/cursors/top_side","n-resize"},
+  {"data/icons/Adwaita/cursors/watch","wait"},
+  {"data/icons/Adwaita/cursors/xterm","text"},
+  {"lib/dri/kms_swrast_dri.so","libdril_dri.so"},
+  {"lib/dri/swrast_dri.so","libdril_dri.so"},
+  {"lib/libggml-base.so.0","libggml-base.so"},
+  {"lib/libggml-cpu.so.0","libggml-cpu.so"},
+  {"lib/libggml-vulkan.so.0","libggml-vulkan.so"},
+  {"lib/libggml.so.0","libggml.so"},
+  {"lib/libllama-common.so.0","libllama-common.so"},
+  {"lib/libllama.so.0","libllama.so"},
+  {"lib/libllamadart.so.0","libllamadart.so"},
+  {"lib/libmtmd.so.0","libmtmd.so"},
+  {"lib/libonnxruntime.so","libonnxruntime.so.1"},
+  {"lib/libonnxruntime.so.1","libonnxruntime.so.1.22.0"},
+ };
+ for(size_t i=0;i<sizeof(links)/sizeof(links[0]);i++) {
+  char *name=path(links[i].name); struct stat st;
+  if(lstat(name,&st)) { perror(name); return -1; }
+  if(S_ISLNK(st.st_mode)) continue;
+  size_t len=strlen(links[i].target); if(!S_ISREG(st.st_mode) || st.st_size!=(off_t)len) { fprintf(stderr,"Unexpected archive link entry: %s\n",name); return -1; }
+  FILE *f=fopen(name,"rb"); char text[PATH_MAX]={0}; size_t n=f?fread(text,1,sizeof(text)-1,f):0; if(f) fclose(f);
+  if(n!=len || memcmp(text,links[i].target,len)) { fprintf(stderr,"Invalid archive link entry: %s\n",name); return -1; }
+  char *temporary; asprintf(&temporary,"%s.restore-%ld",name,(long)getpid());
+  if(symlink(links[i].target,temporary) || rename(temporary,name)) { perror(name); unlink(temporary); return -1; }
+ }
+ return 0;
+}
+
 int main(int argc,char **argv) {
  char exe[PATH_MAX]; ssize_t n=readlink("/proc/self/exe",exe,sizeof(exe)-1);
  if(n<0 || n>=sizeof(exe)-1) { perror("readlink /proc/self/exe"); return 1; } exe[n]=0;
@@ -65,6 +121,7 @@ int main(int argc,char **argv) {
   setting("GDK_PIXBUF_MODULE_FILE","data/loaders.cache"); setting("GDK_PIXBUF_MODULEDIR","lib/gdk-pixbuf/loaders");
   char *dirs; asprintf(&dirs,"%s/data:%s",root,getenv("XDG_DATA_DIRS")?getenv("XDG_DATA_DIRS"):"/run/current-system/sw/share:/usr/local/share:/usr/share"); setenv("XDG_DATA_DIRS",dirs,1);
  }
+ if(!helper && restore_archive_links()!=0) return 1;
  if(!helper && prepare_runtime()!=0) return 1;
  if(chdir(root)!=0) { perror(root); return 1; }
  if(argc==2 && !helper && strcmp(argv[1],"--portable-info")==0) { printf("MeshCore Open PRE-BETA-9.5.2; Debian 13 coherent runtime; software OpenGL\nRoot: %s\n",root); return 0; }
