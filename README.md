@@ -18,3 +18,10 @@ An actual NixOS VM and real radio hardware were not tested.
 Existing installation: [download the runtime correction ZIP](https://github.com/Dev-Joel-S/meshcore-open-nixOS-port/raw/refs/heads/codex/portable-download/download/nixos-runtime-fix.zip),
 extract its contents into your existing `meshcore-portable` directory, replacing
 the starter, then run `./meshcore-open`. Includes XKB, UTF-8 locales and MIME data.
+
+USB boot-data correction: the native serial plugin now waits for callback
+registration before notification and initializes its mutexes before starting
+the worker. Early `[BOOT]` data previously caused a NULL callback SIGSEGV.
+The regression reproduces the crash in the official library and passes
+30 cycles with the replacement. All prior runtime corrections are included.
+Source, patch, rebuild recipe and test results are included in `validation/`.

@@ -1744,5 +1744,16 @@
     "first_start": "static BusyBox xz extraction with pinned SHA-256 verification; no host tools; extracted package directory must be writable",
     "busybox_package_sha256": "598a3fd92bdafc34cd81196b2952ad36e910e47a4ecf162f8ce5e8e262598e53",
     "busybox_version": "1:1.37.0-6+b9"
+  },
+  "native_fixes": {
+    "flserial": {
+      "repository": "https://github.com/MeshEnvy/flserial",
+      "commit": "48216310061efc8d5d217cc18014fc2cb501646e",
+      "source_sha256": "36f10042563e610b7b0b1cce895722451bd62a99b53d53650619ee0dea29df99",
+      "patch_sha256": "97ab5390224e73c04e2eeb7581bf0117bea4925d3944558e9259d163e65ff564",
+      "binary_sha256": "30da2f67cc4dfdad55b97607cd0c6a98df8cf3354b28d682723b46163e977638",
+      "changes": "Atomic callback/stop flag, defer notification until callback exists, initialize mutexes before worker creation",
+      "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+    }
   }
 }

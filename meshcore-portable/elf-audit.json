@@ -1761,35 +1761,31 @@
       "file": "lib/libflserial.so",
       "needed": [
         "libstdc++.so.6",
-        "libm.so.6",
         "libgcc_s.so.1",
         "libc.so.6"
       ],
       "versions": {
-        "libc.so.6": [
-          "GLIBC_2.2.5",
-          "GLIBC_2.14",
-          "GLIBC_2.3",
-          "GLIBC_2.33",
-          "GLIBC_2.34",
-          "GLIBC_2.3.2",
-          "GLIBC_2.17",
-          "GLIBC_2.27"
-        ],
-        "libstdc++.so.6": [
-          "GLIBCXX_3.4",
-          "CXXABI_1.3.9",
-          "CXXABI_1.3.1",
-          "CXXABI_1.3",
-          "GLIBCXX_3.4.21",
-          "GLIBCXX_3.4.32",
-          "GLIBCXX_3.4.26",
-          "GLIBCXX_3.4.9",
-          "GLIBCXX_3.4.20",
-          "GLIBCXX_3.4.11"
-        ],
         "libgcc_s.so.1": [
           "GCC_3.0"
+        ],
+        "libstdc++.so.6": [
+          "GLIBCXX_3.4.32",
+          "GLIBCXX_3.4.20",
+          "GLIBCXX_3.4.11",
+          "GLIBCXX_3.4.9",
+          "CXXABI_1.3",
+          "GLIBCXX_3.4.21",
+          "GLIBCXX_3.4"
+        ],
+        "libc.so.6": [
+          "GLIBC_2.27",
+          "GLIBC_2.17",
+          "GLIBC_2.33",
+          "GLIBC_2.14",
+          "GLIBC_2.3",
+          "GLIBC_2.34",
+          "GLIBC_2.2.5",
+          "GLIBC_2.3.2"
         ]
       }
     },
