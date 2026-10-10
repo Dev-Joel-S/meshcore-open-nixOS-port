@@ -1,4 +1,4 @@
-#Ai made port for NixOS from MeshCore Open
+# Ai made port for NixOS from MeshCore Open
 
 Open-source Flutter client for MeshCore LoRa mesh networking devices.
 
