@@ -5,6 +5,7 @@
 #include <string.h>
 #include <limits.h>
 #include <errno.h>
+#include <locale.h>
 static char root[PATH_MAX];
 static char *path(const char *suffix) { char *p; if(asprintf(&p,"%s/%s",root,suffix)<0) exit(1); return p; }
 static void setting(const char *key,const char *suffix) { setenv(key,path(suffix),1); }
@@ -109,6 +110,10 @@ int main(int argc,char **argv) {
  if(helper) { char suffix[180]; snprintf(suffix,sizeof suffix,"libexec/%s",name); binary=path(suffix); }
  else {
   char *p; asprintf(&p,"%s/bin:%s",root,getenv("PATH")?getenv("PATH"):"/run/current-system/sw/bin:/bin"); setenv("PATH",p,1);
+  setting("XKB_CONFIG_ROOT","data/xkb"); setting("XKB_CONFIG_EXTRA_PATH","data/xkb");
+  unsetenv("LOCALE_ARCHIVE"); setting("LOCPATH","data/locale");
+  if(!setlocale(LC_ALL,"")) setenv("LC_ALL","C.UTF-8",1);
+  setting("XCURSOR_PATH","data/icons"); setenv("XCURSOR_THEME","Adwaita",1);
   setting("GIO_MODULE_DIR","lib/gio/modules"); setting("GSETTINGS_SCHEMA_DIR","data/glib-2.0/schemas");
   setting("FONTCONFIG_FILE","data/fonts.conf"); setting("FONTCONFIG_PATH","data");
   setting("SSL_CERT_FILE","data/ca-certificates.crt"); setting("G_TLS_CA_FILE","data/ca-certificates.crt");
